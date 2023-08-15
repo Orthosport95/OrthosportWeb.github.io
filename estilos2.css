@@ -1,0 +1,50 @@
+@import  url( 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap' );
+ *{
+     margin:0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-family: 'Montserrat Alternates', sans-serif;
+ }
+ .contacto{
+    
+    color: #061a59;
+    margin-top: 10px;
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    margin-left: none;
+    width: 55%;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: none;
+  margin-right: 20px;
+    display: inline;
+   
+    
+}
+.contacto label{
+    margin-left: 10px;
+}
+
+.contacto input{
+    
+    border: 1px solid #030f5e;
+    height: 30px;
+   width: 90%;
+    color: #030f5e;
+    outline: 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.contacto select{
+    margin-left: 10px;
+    color: #030f5e;
+    border-radius: 10px;
+}
+.contacto textarea{
+    margin-left: 10px;
+    width: 90%;
+    color: #030f5e;
+    border-radius: 10px;
+}
