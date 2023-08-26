@@ -1,0 +1,946 @@
+.mobile-p{
+    font-size: 12px;
+}
+.app-wrap-mobile-thumb img{
+    max-width: 297px;;
+    width:78vw;
+}
+@media (min-width: 320px) and (max-width: 1200px) {
+
+
+    .header-nav ul li a {
+        margin-right: 30px;
+        font-size: 12px;
+    }
+
+    .header {
+        padding: 23px 0;
+    }
+
+    .search-form {
+        max-width: 830px;
+    }
+
+    .form-item .btn {
+        width: 58px;
+        height: 46px;
+        margin-left: 9px;
+        font-size: 17px;
+    }
+
+    .common-content h2 {
+        font-size: 38px!important;
+        line-height: 110%;
+    }
+
+    .common-content h5 {
+        font-size: 19px;
+    }
+
+    .text-link {
+        font-size: 13.233px;
+    }
+
+    .medical-item {
+        padding: 18px 21px;
+    }
+
+    .hospitals-left-wrap {
+        max-width: 490px;
+        padding-top: 8px;
+    }
+
+    .hospitals-right {
+        padding: 27px 32px;
+        width: 355px;
+    }
+
+    .video-wrapper {
+        height: 520px;
+        border-radius: 30px;
+    }
+
+    .blog-card {
+        border-radius: 17px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .blog-card-link a {
+        padding: 12px 16px;
+    }
+
+    .footer-logo {
+        max-width: 200px;
+    }
+
+    .footer-item {
+        padding-top: 2px;
+        padding-left: 14px;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    #angeles-digital .app_Info h2,
+    #angeles-digital  h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 122.5%;
+        color: #000000;
+    }
+    #angeles-digital .app_Info p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+
+        color: #000000;
+    }
+    #angeles-digital .blg__area.section-padding {
+        padding-top:45px;
+        padding-bottom: 50px;
+    }
+    #angeles-digital .blg__blk:nth-child(2n-1){
+        margin-left: auto;
+        margin-right:20px
+    }
+    #angeles-digital .blg__blk:nth-child(2n){
+        margin-right: auto;
+        margin-left: 20px;
+    }   
+    #angeles-digital .blg__blk:nth-child(5){
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:15px;
+    }  
+    #angeles-digital .portal-Area .app-wrapper,
+    #angeles-digital .marketplace-Area .app-wrapper{
+        padding-top:61px;
+        padding-left: 71px;
+        padding-bottom:82px;
+    }
+    #angeles-digital .medico-Area{
+        padding-top:50px;
+        padding-bottom: 0;
+    }
+    #angeles-digital .medico-Area .col-lg-6.order-lg-1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #angeles-digital .medico_left{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #angeles-digital .medico_blk:nth-child(1){
+        margin-right: 10px;
+        margin-left: auto;
+    }
+    #angeles-digital .medico_blk:nth-child(2){
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    #angeles-digital .medico_blk:nth-child(3){
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:25px;
+    }
+    #angeles-digital .marketplace-Area{
+        margin-bottom: 45px;
+    }
+    #angeles-digital .marketplace-Area .marketplace_img{
+        position: absolute;
+        margin-top:-20px;
+        right:10px;
+    }
+    #angeles-digital .marketplace-Area .marketplace_img img{
+        height:600px;
+        width: auto !important;
+        max-width: none;
+    }
+    #angeles-digital .Directorio_title{
+        margin-bottom: 45px;
+    }
+    #angeles-digital .Directorio-Area{
+        padding-bottom: 80px;
+    }
+    .main#clinicas .hero-content p{
+        max-width: none;
+    }
+    
+}
+/*****************     TABLET      ****************/
+@media (min-width: 320px) and (max-width: 991px) {
+    .menu-open {
+        display: block;
+    }
+    .common-content h2  {
+        font-size: 43px!important;
+       
+    }
+    
+    .header-nav {
+        display: none !important;
+    }
+
+    .header-logo {
+        max-width: 200px;
+    }
+
+
+    .search-form {
+        max-width: 580px;
+    }
+
+    .search-form {
+        border-radius: 16px;
+        padding: 18px;
+        margin-top: -23px;
+    }
+
+    .search-tags button {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 9px 14px;
+        margin: 0 6px;
+        margin-bottom: 9px;
+        border-radius: 5px;
+    }
+
+    .hero-thumb {
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+
+    .search-form-main .col-md-4 {
+        width: 53%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-item {
+        margin-bottom: 10px;
+    }
+
+
+    .search-form-main .row {
+        margin: 0 auto;
+       
+        
+       
+    }
+
+    .form-item.d-flex {
+        display: block !important;
+    }
+    *{
+        outlsine:1px solid red;
+    }
+    .form-item .btn {
+        width: 99%;
+        height: 46px;
+        margin-left: auto;
+        font-size: 19px;
+       
+    }
+
+    .video-play {
+        max-width: 60px;
+    }
+
+    .video-wrapper {
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .section-title {
+        padding-bottom: 30px;
+    }
+
+    .service-slider-two.second {
+        padding-left: 85px;
+    }
+
+    .app-content {
+        max-width: 451px;
+        padding: 45px;
+        font-size:12px;
+    }
+   
+
+    .app-thumb {
+        text-align: center;
+        margin-top: 0;
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        max-width: 326px;
+    }
+
+    .app-wrapper .col-md-6:last-child {
+        order: -1;
+    }
+
+
+    .service-area {
+        overflow: hidden;
+        padding-bottom: 55px;
+    }
+
+    .hospitals-wrapper {
+        display: block;
+    }
+
+    .hospitals-right {
+        padding: 24px 28px;
+        padding-bottom: 0;
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden;
+        min-height: 293px;
+    }
+    .hospitals-right h4{
+        padding-top:0;
+    }
+    .hospitals-right .hospital-item{
+        width:275px;
+        flex-shrink: 0;
+        margin-right: 21px;
+        height: 187px;
+    }
+    .hospitals-right .hospital-cards{
+        padding-bottom: 0;
+    }
+    .hospitals-left {
+        border-radius: 30px 30px 0 0;
+        padding: 38px 27px;
+        width: 100%;
+    }
+
+    .hospitals-left-wrap {
+        max-width: 100%;
+        padding-top: 7px;
+    }
+
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    .blog-area {
+        padding-top: 0;
+    }
+    .blog-area .section-title h5, 
+    .blog-area .section-title h2{
+        text-align: center;
+    }
+    .main.directorio .search-form{
+        margin-top:-60px;
+    }
+    .main.directorio #directorio .breadcrumb_content{
+        padding-top:33px;
+    }
+    .main.directorio #directorio .search-form{
+        max-width: 566px;
+    }
+    .main.directorio .what-seach{
+        margin-top: 10px;
+    }
+    #hospitalDetail .mao__area{
+        margin-top:75px;
+    }
+    #hospitalDetail .popup__thumb__area .col-4:nth-child(3) .galler__hover__content{
+        visibility: visible;
+        opacity: 1;
+       
+    }
+    #hospitalDetail .popup__thumb img
+    {
+        height:178px;
+       
+    }
+    #hospitalDetail .popup__thumb__area{
+        height:auto;
+    }
+    #hospitalDetail .service__title{
+        margin-bottom:40px;
+    }
+    #medicoDetail .hero {
+        height:374px;
+        padding:25px;
+    }
+    #medicoDetail .hero h3{
+        margin-top:38px!important;
+        font-size:30px!important;
+        margin-bottom:7px!important;
+    }
+    #medicoDetail .hero .nombre{
+        width:350px;
+    }
+    #medicoDetail .hero .imagen img{
+        width: 276px;
+        height:324px;
+    }
+    #medicoDetail .hero .especialidad{
+        font-size:15px!important;
+    }
+    #medicoDetail .hospital_map{
+        margin-bottom: 59px;
+    }
+    .main#serviciosList .hero-area button{
+        width:auto;
+        padding-left:20px;
+        padding-right: 20px;
+        margin-left: 10px;
+    }
+    .main#serviciosList .form-item.d-flex{
+        display:flex!important;
+    }
+    .main#contacto .breadcrumb__area{
+        height:302px;
+    }
+    .main#cas .hero-content p{
+        max-width: none;
+    }
+    .main#cas .common-content {
+        height: auto;
+    }
+    .main#cas .menu-area select {
+        width: 100%;
+    }
+    .main#cas .menu-holder{
+        flex-direction: column!important;
+        height:auto!important;
+    }
+    .main#clinicas .popup__thumb__area{
+        height:auto;
+    }
+    .main#clinicas .popup__thumb img{
+        height:175px;
+    }
+    .main#farmacia .hero-content p{
+        max-width: 100%;
+        text-align: justify;
+    }
+    
+    .boletin-card{
+        width:100%;   
+    }
+
+}
+
+
+
+
+
+/*****************     PHONE      ****************/
+@media (min-width: 240px) and (max-width: 767px) {
+    .header-logo img{
+        width:195px;
+        height:auto;
+    } 
+    .main .app-area .app-content-list img{
+        width: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .search-form-main .col-md-4 {
+        width: 100%;
+    }
+    .main#cas .menu-area select {
+        width: 100%;
+    }
+    .main#cas .menu-holder{
+        flex-direction: column!important;
+        height:auto!important;
+    }
+    .main#cas .hero-thumb.r_border img,
+    .main#servicio .hero-thumb.r_border img{
+        height:252px;
+    }
+    .main#serviciosList .hero-area button{
+        width:100%;
+        margin-left: 0;
+    }
+    .main#serviciosList .service-card.secondary_blog_card .service-card-thumb{
+        width:100%;
+    }
+    #search-modal .form-check{
+        display:flex;
+        justify-content:space-between;
+        padding-left: 0;
+    }
+    #search-modal .form-check .form-check-input{
+        order:2;
+        
+    }
+    #search-modal.form-check label{
+        order:1;
+        width:100%;
+    }
+    .secondary_blog_card.service-card{
+        height:550px!important;
+        overflow: hidden;
+    }
+    .collapse-sm{
+        display: none;
+    }
+    .collapse-sm.show{
+        display:block;
+    }
+    .collapse-sm .searchResult{
+        display:block;
+    }
+    .secondary_blog_card .service-card-content .blog-card-link a {
+        background: #F6F6F6;
+    }
+    .secondary_blog_card .service-card-content{
+        height:228px!important;
+    }
+    .row,
+    .hospitals-area{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    
+    .hero-content p{
+        line-height: 19px;
+    }
+    .hero-content h2{
+        /*width: 300px;*/
+        
+    }
+    .hero-thumb{
+        border-radius: 15px;
+    }
+    .slider-area{
+        padding-top:0;
+    }
+    .blog-area .common-content.section-title {
+        text-align: center;
+    }.blog-card {
+        max-width: 335px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 18px;
+    }
+
+    .section-padding {
+        padding: 80px 0;
+    }
+
+    .service-area{
+        padding-bottom: 45px;
+    }
+    .services-wrapper {
+        display: none;
+    }
+
+    .service-cards-mobile {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .app-wrapper {
+        background: #EFF4FF;
+        border-radius: 35px;
+        position: relative;
+        padding: 22px;
+        padding-bottom: 0;
+    }
+
+    .footer-logo {
+        max-width: 200px;
+        margin-bottom: 32px;
+    }
+
+    .footer-item {
+        padding-top: 2px;
+        padding-left: 6px;
+    }
+    .dolphin-thumb svg{
+        height:200px;
+    }
+    #angeles-digital .app-wrapper{
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+    }
+    #angeles-digital .app_stor a{
+        width:100%;
+        margin-left: 0;
+        margin-right: 0!important;
+    }
+    #angeles-digital .app_stor a img{
+        max-width:none;
+        width:100%;
+    }
+    #angeles-digital .blg__area.section-padding {
+        padding-top:20px;
+        padding-bottom: 10px;
+    }
+    #angeles-digital .blg__blk:nth-child(2n-1){
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: 8px;
+    }
+    #angeles-digital .blg__blk:nth-child(2n){
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 8px;
+    }   
+    #angeles-digital .blg__blk:nth-child(5){
+        margin-top:25px;
+        margin-bottom: 25px;
+    }
+    #angeles-digital .portal-Area .app-wrapper{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 70px;
+        padding-top:40px;
+       
+    }
+    #angeles-digital .portal-Area .common-content{
+        text-align:center;
+    }
+    #angeles-digital .portal-Area .common-content .portal_blk{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    #angeles-digital .portal-Area .common-content ul{
+        margin-top: 20px;
+    }
+    #angeles-digital .portal-Area .common-content h6{
+        margin-top: 15px;;
+    }
+    #angeles-digital .portal-Area .common-content p{
+        width:280px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 18px;
+    }
+    #angeles-digital p{
+        line-height: 18px;;
+    }
+    #angeles-digital .medico_Right img{
+        width:100%;
+    }
+    #angeles-digital .medico_title{
+        margin-bottom:0;
+    }
+    #angeles-digital .medico_blk{
+        margin-left: auto!important;
+        margin-right: auto!important;
+        margin-top: 0!important;
+        margin-bottom:15px!important;
+    }
+    #angeles-digital .marketplace-Area{
+        margin-top:20px;
+    }
+    #angeles-digital .marketplace-Area .app-wrapper{
+        padding-top:40px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+    #angeles-digital .marketplace-Area h2,
+    {
+        font-size: 40px;
+    }
+    #angeles-digital .ds_one{
+        display: none;
+    }
+    #angeles-digital img.ds_two{
+        display: block;
+        width: 100% !important;;
+        margin-top:45px;
+        margin-left: auto !important;
+        height: auto!important;
+        margin-right: auto;
+    }
+    #angeles-digital .marketplace-Area .marketplace_img img {
+        width: 100%!important;
+    }
+    #angeles-digital .marketplace_img{
+        position: relative!important;
+        width:100%;
+        text-align: center;
+        display: flex;
+        margin-right: -10px;
+    }
+    #angeles-digital .Directorio_btn{
+        margin-top: 20px;
+    }
+    #angeles-digital .Directorio-Area{
+        padding-bottom: 60px;;
+    }
+    .main.directorio .filterbtn{
+        width:100px!important;
+    }
+    
+    .main.directorio .urgencias-link a,
+    .urgencias-link a{
+        background: #FD4E4E;
+    }
+    .main.directorio .urgencias-link a img,
+    .urgencias-link img{
+        height:14.8px;
+        margin-right: 7px;
+    }
+    .hospital__map__blk #map{
+        height: 233px;
+    }
+    #hospitalDetail .popup-bubble{
+        width: 250px;
+    }
+    #hospitalDetail .popup-bubble small{
+       display: none;
+    }
+    #hospitalDetail .popup__thumb img,
+    .main#clinicas .popup__thumb img{
+        height:84px;
+        border-radius: 10px;
+    }
+    #hospitalDetail .popup__thumb__area{
+        height:auto;
+    }
+    #hospitalDetail .popup__thumb__area .col-4:nth-child(3) .galler__hover__content,
+    .main#clinicas .popup__thumb__area .col-4:nth-child(3) .galler__hover__content
+    {
+        visibility: visible;
+        opacity: 1;
+        border-radius: 10px;
+        font-size:12px;
+    }
+    #hospitalDetail .hospital__inner_blkk{
+        padding-bottom: 40px;
+    }
+    #hospitalDetail .service__title{
+        margin-top: 0;
+    }
+    #hospitalDetail .blog-area{
+        padding-bottom:40px;
+    }
+    #hospitalDetail .special__area .container{
+        padding:0!important;
+    }
+    #hospitalDetail .sp_inner_blk{
+        padding-top:29px;
+        padding-left: 40px;
+        padding-right:40px;
+        padding-bottom: 43px;
+    }
+    #hospitalDetail .special__title{
+        text-align: center;
+        width:100%;
+    }
+    #hospitalDetail .special__search button{
+        margin-left: 0;
+        width: 100%;
+        margin-top:10px;
+    }
+    h4{
+        font-size:30px!important;
+    }
+    .hero-area h4{
+        font-size: 45px!important;
+    }
+    .breadcrumb_content2 h4 
+    {  
+        font-size: 35px !important;
+    }
+    #hospitalDetail .col-lg-4:nth-child(1) .special__area .special_single_blk:nth-child(1) h6{
+        margin-top:30px;
+    } 
+    #hospitalDetail .col-lg-4:not(:first-child) {
+        margin-top:-15px;
+    } 
+    #medicoDetail .mao__area{
+        margin-top:28px;
+    }
+    #medicoDetail .hero {
+        padding:20px;
+        height:650px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #medicoDetail .hero .imagen img {
+        width: 161px;
+        height: 189px;
+        border: 1px solid #EBEBEB;
+        border-radius: 20px;
+    }
+    #medicoDetail .mao__area .nombre{
+        width: auto;
+    }
+    #medicoDetail .mao__area .hero h3 {
+        margin-top: 21px!important;
+        font-size: 28px!important;
+        margin-bottom: 7px!important;
+        font-weight: 600!important;
+    }
+    #medicoDetail .personales{
+        margin-bottom:43px!important;
+        padding-bottom: 45px!important;
+    }
+    #medicoDetail .personales .fs-17{
+        font-size: 15px;
+    }
+    #medicoDetail .hospital_map {
+        height:266px;
+        border-radius: 20px;
+        margin-left:5px;
+        margin-right: 5px;
+    }
+    #medicoDetail .hospital_map #map {
+        height:266px;
+    }
+    #medicoDetail .popup-bubble,
+    #clinicas .popup-bubble{
+        width:265px;
+    }
+    .main#contacto .breadcrumb__area h4{
+        font-size: 35px!important;
+    }
+    .main#contacto .contact input,
+    .main#clinicas .input{
+        width:100%;
+    }
+    .main#contacto textarea,
+    .main#clinicas textarea{
+        width:100%;
+    }
+    .common-content h2 {
+        font-size: 43px!important;
+        line-height: 109%;
+        font-weight: 700;
+    }
+    .main#serviciosList .breadcrumb__area{
+        height:355px;
+    }
+    .main#clinicas .slide-item img {
+        border-radius: 15px;
+    }
+    .main#clinicas .app-wrapper{
+        padding-top: 35px;
+        padding-bottom: 40px;;
+    }
+    .main#clinicas .app-wrapper h4{
+        font-size: 18px!important;
+    }
+    .main#clinicas .app-wrapper b{
+        font-size:13px!important;
+    }
+    .main#clinicas .app_stor{
+        margin-bottom:0;
+    }
+    .main#clinicas .app-btn{
+        padding-bottom: 0;
+    }
+    .main#clinicas .Directorio_btn{
+        margin-top: 20px;
+        margin-bottom:30px;
+    }
+    .main#clinicas .contact-Area{
+        padding-top: 60px
+    }
+    .main#clinicas .hero-thumb.r_border img{
+        height:300px;
+    }
+    .main#farmacia .hero-thumb img{
+        height: 251px;
+        border-radius: 17px;
+    }
+    .boletin-card{
+        height:auto;
+    }
+    .boletin-card-thumb img{
+        width:100% !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .service-card {
+        flex-direction: column;
+        height: 567px;
+    }
+
+    .service-card-thumb {
+        width: 100%;
+        height: 295px;
+        flex: 0 0 auto;
+        border-radius: 17px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-bottom: 19px;
+    }
+
+
+    .medical-item-content p {
+        margin-bottom: 18px;
+        min-height: auto;
+    }
+
+    .hospitals-right {
+        padding: 21px 22px;
+
+    }
+
+    .video-play {
+        max-width: 52px;
+    }
+
+    .video-wrapper {
+        height: auto;
+        border-radius: 22px;
+    }
+
+    
+    .common-content h5{
+        font-size: 22px;
+    }
+    .search-form-main .row {
+        max-width: 100%;
+        margin-bottom: 12px;
+        margin-top: 3px;
+    }
+
+    .slider-area {
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+}
+
+/*------------------------------  WEB   ----------------------------------*/
+@media screen and (min-width: 992px) {
+    #hospitalDetail .hospital__inner_blkk{
+        margin-top:40px;
+    }
+    #hospitalDetail .hospital__inner_blkk{
+        padding-bottom:75px;
+    }
+    #hospitalDetail .service__title{
+        margin-top:30px;
+        margin-bottom: 40px;
+    }
+    .main#clinicas .hero-content p{
+        text-align: justify;
+    }
+    .main#clinicas .hero-Area .text-center{
+        text-align:left!important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .main#contacto form input,
+    .main#clinicas form input{
+        width: 250px;;
+    }
+}
+@media screen and  (min-width: 567px){
+    .secondary_blog_card.service-card{
+        height:auto!important;
+    }
+}
+    

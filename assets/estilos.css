@@ -1,0 +1,169 @@
+
+.form-control-sm1 {
+    min-height: calc(1.5em + .5rem + calc(var(--bs-border-width) * 2)) !important;
+    padding: .25rem .5rem !important;
+    font-size: .875rem !important;
+    border-radius: .25rem !important;
+}
+.mtop
+{
+	margin-top: 10%;
+}
+.mbotton
+{
+	margin-bottom: 10%;
+}
+.formulariof
+{
+	margin-top: -60px; 
+	margin-bottom: -500px;
+	background-color: #2370b6 !important;
+}
+.titulo
+{
+	margin-top: 10px;
+	max-width: 90px;
+}
+.titulos_mocel
+{
+	color:#266aea;
+}
+.back_azul
+{
+	background: #266aea;
+	/*color:#266aea;*/
+}
+.deg_aux
+{
+background: rgb(35,112,182);
+background: linear-gradient(90deg, rgba(35,112,182,1) 23%, rgba(35,112,182,0) 98%);
+}
+.azul_aux
+{
+	background-color:#2370b6;
+}
+
+/* para maternidad*/
+.btn-mt
+{
+    font-size: 1.3rem !important;
+    width: 300px;
+}
+.fz-mt
+{
+    font-size: 1.3rem;
+}
+.fz2-mt
+{
+    font-size: 3.3rem;
+}
+.fz3-mt
+{
+    font-size: 2.2rem;
+}
+.bgtop-paquetes-mt {
+    background: #FFFFFF url( /assets/img/img-maternidad/bg-top.jpg ) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bgmed-paquetes-mt {
+    background: #FFFFFF url( /assets/img/img-maternidad/bg-medpaquetes.png ) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.bg-estaran-mt {
+    background: url( /assets/img/img-maternidad/textura_1.png ) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.bg-expertos-mt {
+    background: #FFFFFF url( /assets/img/img-maternidad/textura_2.jpg ) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.bg-azul-mt
+{
+    background-color: #afd5df;
+}
+.color-azul-mt
+{
+    color: #90c1cd !important;
+}
+.mmy-mt
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.color-gris-mt
+{
+    color:#83898e;
+}
+
+.circulo-mt
+{
+	padding-top: 5%;
+    width: 225px;
+    height: 225px;
+    margin:auto;
+    margin-bottom: 10%;
+    background-color: #9c9c9c;
+    font-size: .94rem;
+}
+.iconos-mt
+{
+    width: 40px;
+}
+.icono-mt
+{
+    width: 22px;
+}
+
+.mt-10-mt
+{
+    margin-top: 10%;
+}
+.logo_aux
+{
+	padding-top: 8%; 
+	padding-bottom: 6%;
+}
+@media only screen and (max-width: 576px) 
+{
+    .btn-mt
+    {
+        font-size: 1rem !important;
+    }
+    .bgtop-paquetes-mt
+    {
+        background: none !important;
+    }
+    .bgtop-paquetes-aux-mt
+    {
+        background: #FFFFFF url( /assets/img/img-maternidad/bg-top.jpg ) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+} 
+
+/*fin maternidad*/
+
+@media (max-width: 767.98px) 
+{
+	.formulariof
+	{
+		margin-top: 20px; 
+		margin-bottom: 1px;
+	}
+
+	.titulo
+	{
+		max-width: 90px;
+	}
+	.logo_aux
+	{
+		padding-top: 20%; 
+		padding-bottom: 8%;
+	}
+
+}

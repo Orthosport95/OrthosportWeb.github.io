@@ -48,3 +48,49 @@
     color: #030f5e;
     border-radius: 10px;
 }
+#prod{
+    background-color: #f5f0f0;
+    border-radius: 10px;
+    border: #061a59;
+}
+#prod a{
+    text-align: center;
+    align-items: center;
+    
+}
+#prod img{
+    
+    border-radius: 10px;
+    
+}
+#catalogo{
+    text-align: center;
+    align-items: center;
+}
+#cl1{
+    background-color: #a4c3fc;
+    border-radius: 50px;
+   
+}
+#cl1:hover{
+    background-color: rgb(54, 142, 241);
+    border-radius: 50px;
+
+}
+#cl1 a:hover{
+    background-color: rgb(47, 255, 58);
+}
+#cl2{
+    background-color: none;
+    border-radius: 50px;
+}
+#cl2:hover{
+    background-color: #c7c7c7 ;
+}
+#cl3{
+    background-color: #0088e2b2;
+    border-radius: 50px;
+}
+#cl3:hover{
+    background-color: #593cff;
+}
